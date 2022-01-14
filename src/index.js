@@ -143,20 +143,21 @@
 // var operation = avengers.operation,
 //   members = avengers.members;
 
-let avengers = {
-  operation: "Assemble",
-  members: [
-    {
-      ironMan: "Tony Stark"
-    },
-    {
-      captainAmerica: "Steve Rogers"
-    },
-    {
-      blackWidow: "Natasha Romanoff"
-    }
-  ]
-};
+// ES6:
 
-let { operation, members } = avengers;
-console.log(avengers);
+// let avengers = {
+//   operation: "Assemble",
+//   members: [
+//     {
+//       ironMan: "Tony Stark"
+//     },
+//     {
+//       captainAmerica: "Steve Rogers"
+//     },
+//     {
+//       blackWidow: "Natasha Romanoff"
+//     }
+//   ]
+// };
+// let { operation, members } = avengers;
+// console.log(avengers);
