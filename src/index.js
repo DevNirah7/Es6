@@ -158,5 +158,5 @@ let avengers = {
   ]
 };
 
-let [operation, members] = avengers;
+let { operation, members } = avengers;
 console.log(avengers);
