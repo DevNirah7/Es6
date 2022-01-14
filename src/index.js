@@ -67,3 +67,96 @@
 // const Neog = ["Tanvi", "Swap", "Tanay", "MA", "CA", "PA", "TA"];
 // const [CEO,Mentor]= Neog;
 // console.log(CEO,Mentor);
+
+// // 5.
+// // Es5 Syntax:
+// var arr = ["MA", "TA", "PA", "CA"];
+// var firstName = arr[0],
+// var surname = arr[1];
+// console.log(firstName);
+// console.log(surname);
+
+// ES6:
+// const arr = ["MA", "TA", "PA", "CA"];
+// const [firstName,surname]=arr;
+// console.log(firstName)
+// console.log(surname)
+
+// // 6.
+// // ES5 syntax
+// var Aaloo = "Tasty";
+// var Bhaloo = "Cute";
+// var Obj = {
+//   Aaloo: Aaloo,
+//   Bhaloo: Bhaloo
+// };
+
+// ES6:
+// const Aaloo="tasty", Bhaloo="Cute",
+// Obj = {Aaloo,Bhaloo};
+// console.log(Obj)
+
+// 7.
+// ES5 syntax
+// var a = 5;
+// var b = 10;
+// console.log("Fifteen is ".concat(a + b, " and n0t ").concat(2 * a + b, "."));
+
+//ES6:
+// var a = 5;
+// var b = 10;
+// console.log(`Fifteen is ${a+b} and not ${2*a+b}`)
+
+// 8.
+// ES5 syntax
+// var arithmeticsObj = {
+//   sum: function sum(num1, num2) {
+//     return num1 + num2;
+//   },
+//   multiply: function multiply(num1, num2) {
+//     return num1 * num2;
+//   }
+// };
+
+// // ES6:
+// const arithmeticsObj={
+// //   sum: (num1,num2) => num1+num2,
+// //   multiply: (num1,num2) => num1*num2
+// // };
+
+// // 9.
+// // ES5 syntax
+// var avengers = {
+//   operation: "Assemble",
+//   members: [
+//     {
+//       ironMan: "Tony Stark"
+//     },
+//     {
+//       captainAmerica: "Steve Rogers"
+//     },
+//     {
+//       blackWidow: "Natasha Romanoff"
+//     }
+//   ]
+// };
+// var operation = avengers.operation,
+//   members = avengers.members;
+
+let avengers = {
+  operation: "Assemble",
+  members: [
+    {
+      ironMan: "Tony Stark"
+    },
+    {
+      captainAmerica: "Steve Rogers"
+    },
+    {
+      blackWidow: "Natasha Romanoff"
+    }
+  ]
+};
+
+let [operation, members] = avengers;
+console.log(avengers);
